@@ -12,6 +12,55 @@ header{
     width: 100%;
 }
 
+#Logo{
+    padding-left: 25px;
+    font-family: 'Oswald', 'Merriweather', serif, sans-serif;
+    font-size: larger;
+}
+
+#Opcoes{
+    font-family: 'Heebo', sans-serif;
+}
+
+.sobre_mim{
+    border-radius: 25px;
+    box-shadow: 4px 2px 15px #424242;
+    background-color: rgb(240, 250, 255);
+}
+
+.sobre_mim .texto_sobre_mim{
+    font-family:'Heebo', sans-serif, serif;
+}
+
+.sobre_mim .texto_sobre_mim h2{
+    font-family:'Oswald', 'Merriweather', serif, sans-serif;
+    font-size: 32px;
+}
+
+.sobre_mim, img, p {
+    display: flex;
+}
+
+.texto_sobre_mim{
+    padding: 2%;
+}
+
+.texto_sobre_mim h2{
+    font-size: 25px;
+}
+
+#Perfil{
+    padding: 10px;
+    padding-top: 25px;
+    height: 250px;
+    width: 250px;
+    min-height: 220px;
+    min-width: 220px;
+    margin-right: auto;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
 #Cursos h1{
     text-align: center;
     font-size: 30px;
@@ -23,13 +72,9 @@ header{
 
 }
 
-.sobre_mim{
-    border-radius: 25px;
-    box-shadow: 4px 2px 15px #424242;
-    background-color: rgb(240, 250, 255);
-}
 
 .curso{
+    font-family:'Heebo', sans-serif, serif;
     margin: 10px;
     border-radius: 1px;
     box-shadow: 2px 1px 5px #a7a7a7;
@@ -40,44 +85,38 @@ header{
     padding: 4px;
 }
 
-
-.sobre_mim, img, p {
+.Cursos{
     display: flex;
 }
 
-.Cursos, .sobre_mim{
-    display: flex;
-}
-
-.Cursos, .curso, p{
+.Cursos .curso p{
     padding: 10px;
+    width: 230px;
+    min-width:150px;
+    max-width: 250px;
+}
+
+.Cursos .curso{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cursos .curso h3{
+    font-size: large;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 .Cursos .curso img{
-    height: 120px;
-}
-
-.texto_sobre_mim{
-    padding: 2%;
-}
-
-
-.texto_sobre_mim h2{
-    font-size: 25px;
-}
-
-#Perfil{
-    padding: 10px;
-    height: 250px;
-    width: 250px;
-    min-height: 220px;
-    min-width: 220px;
+    height: 160px;
+    width: 215px;
+    margin-left: auto;
     margin-right: auto;
-    margin-left: 10px;
-    border-radius: 50%;
+
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 980px) {
     #Perfil {
         margin-left: auto;
         margin-right: auto;
@@ -93,7 +132,28 @@ header{
     }
 
     .Cursos .curso img{
+        padding: 20px;
         height: auto;
+        width: auto;
+        max-height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Cursos .curso p{
+        padding: 10px;
+        width: 100%;
+        min-width: 350px;
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+    }
+    
+    .Cursos .curso h3{
+        padding: 0px;
+        text-align: center;
     }
   }
 
