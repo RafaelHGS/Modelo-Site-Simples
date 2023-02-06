@@ -1,0 +1,99 @@
+html{
+    border: 0px;
+    padding: 0px;
+}
+
+.title{
+    color: aliceblue;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+}
+
+#Cursos h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.section .container{
+    position:inherit;
+
+}
+
+.sobre_mim{
+    border-radius: 25px;
+    box-shadow: 4px 2px 15px #424242;
+    background-color: rgb(240, 250, 255);
+}
+
+.curso{
+    margin: 10px;
+    border-radius: 1px;
+    box-shadow: 2px 1px 5px #a7a7a7;
+    background-color: rgb(240, 250, 255);
+}
+
+.curso, img {
+    padding: 4px;
+}
+
+
+.sobre_mim, img, p {
+    display: flex;
+}
+
+.Cursos, .sobre_mim{
+    display: flex;
+}
+
+.Cursos, .curso, p{
+    padding: 10px;
+}
+
+.Cursos .curso img{
+    height: 120px;
+}
+
+.texto_sobre_mim{
+    padding: 2%;
+}
+
+
+.texto_sobre_mim h2{
+    font-size: 25px;
+}
+
+#Perfil{
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    min-height: 220px;
+    min-width: 220px;
+    margin-right: auto;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    #Perfil {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+
+    .sobre_mim, img, p {
+        display: block;
+    }
+
+    .Cursos{
+        display: block;
+    }
+
+    .Cursos .curso img{
+        height: auto;
+    }
+  }
+
