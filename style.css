@@ -25,7 +25,7 @@ header{
 .sobre_mim{
     border-radius: 25px;
     box-shadow: 4px 2px 15px #424242;
-    background-color: rgb(240, 250, 255);
+    background-color: rgb(245, 250, 255);
 }
 
 .sobre_mim .texto_sobre_mim{
@@ -78,7 +78,7 @@ header{
     margin: 10px;
     border-radius: 1px;
     box-shadow: 2px 1px 5px #a7a7a7;
-    background-color: rgb(240, 250, 255);
+    background-color: rgb(245, 250, 255);
 }
 
 .curso, img {
