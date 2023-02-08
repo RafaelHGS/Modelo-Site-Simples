@@ -1,5 +1,6 @@
-# Teste Site Simples
 # Kelly K Farmaceutica
+Teste para modelo simples de site com html e css
+
 ### __Site modelo simples__
 
 Este site apresentado é um modelo simples de site com responsividade entre ambiente desktop e mobile feito quase inteiramente em html e css puro, as únicas partes referentes ao código que são feitas com um framework css é a barra de navegação e footer.
