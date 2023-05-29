@@ -1,5 +1,4 @@
 # Kelly K Farmaceutica
-Teste para modelo simples de site com html e css
 
 ### __Site modelo simples__
 
