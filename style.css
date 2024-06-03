@@ -1,10 +1,13 @@
-html{
+* {
     border: 0px;
     padding: 0px;
 }
 
-.title{
-    color: aliceblue;
+body {
+    font-family:'Heebo', sans-serif, serif;
+    p {
+        text-indent: 1.5em;
+        margin-bottom: 0; }
 }
 
 header{
@@ -19,44 +22,38 @@ header{
 }
 
 #Opcoes{
-    font-family: 'Heebo', sans-serif;
-}
-
-.sobre_mim{
-    border-radius: 25px;
-    box-shadow: 4px 2px 15px #424242;
-    background-color: rgb(245, 250, 255);
-}
-
-.sobre_mim .texto_sobre_mim{
     font-family:'Heebo', sans-serif, serif;
 }
 
-.sobre_mim .texto_sobre_mim h2{
-    font-family:'Oswald', 'Merriweather', serif, sans-serif;
-    font-size: 32px;
-}
-
-.sobre_mim, img, p {
+.sobre_mim {
     display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 8px;
+    border-radius: 25px;
+    box-shadow: 4px 2px 15px #4242429a;
+    background-color: rgb(245, 250, 255);
 }
 
-.texto_sobre_mim{
-    padding: 2%;
+.texto_sobre_mim p{
+    padding: 0 8px 8px 8px;
 }
 
 .texto_sobre_mim h2{
-    font-size: 25px;
+    font-family:'Oswald', 'Merriweather', serif, sans-serif;
+    font-size: 32px;
+    padding: 8px;
 }
 
-#Perfil{
+.texto_sobre_mim h3 {
+    padding: 8px;
+}
+
+.perfil img{
     padding: 10px;
     padding-top: 25px;
-    height: 250px;
-    width: 250px;
-    min-height: 220px;
+    max-width: 350px;
     min-width: 220px;
-    margin-right: auto;
     margin-left: 10px;
     border-radius: 50%;
 }
@@ -66,55 +63,51 @@ header{
     font-size: 30px;
 }
 
-
-.section .container{
+#Inicio .container{
     position:inherit;
-
-}
-
-
-.curso{
-    font-family:'Heebo', sans-serif, serif;
-    margin: 10px;
-    border-radius: 1px;
-    box-shadow: 2px 1px 5px #a7a7a7;
-    background-color: rgb(245, 250, 255);
-}
-
-.curso, img {
-    padding: 4px;
 }
 
 .Cursos{
     display: flex;
+    justify-content: space-between;
 }
 
-.Cursos .curso p{
-    padding: 10px;
-    width: 230px;
+.curso{
+    padding: 16px;
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 4px 2px 15px #4242429a;
+    background-color: rgb(245, 250, 255);
+}
+
+.curso p{
+    width: 100%;
     min-width:150px;
-    max-width: 250px;
 }
 
-.Cursos .curso{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Cursos .curso h3{
+.curso h3{
+    padding: 8px 0;
     font-size: large;
-    padding-top: 15px;
-    padding-left: 15px;
 }
 
-.Cursos .curso img{
-    height: 160px;
+.curso img{
+    display: block;
     width: 215px;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: auto;
 }
 
+footer {
+    background-color: #5db6ff;
+    color: aliceblue;
+    padding: 18px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 @media screen and (max-width: 980px) {
     #Perfil {
@@ -155,5 +148,5 @@ header{
         padding: 0px;
         text-align: center;
     }
-  }
+}
 
